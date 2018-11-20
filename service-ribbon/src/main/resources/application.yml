@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jinaiya.com/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-ribbon
